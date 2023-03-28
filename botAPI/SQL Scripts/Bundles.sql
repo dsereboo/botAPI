@@ -520,16 +520,16 @@ VALUES
 
 /************Tests*************/
 -- EXEC  [dbo].[PCES_User_ValidatePin] @userId=2, @pin=1234
-EXEC [dbo].[PCES_User_CheckExistence] @telegramUserId= '532015284'
+--EXEC [dbo].[PCES_User_CheckExistence] @telegramUserId= '532015284'
 -- EXEC [dbo].[PCES_DataPurchases_GetLatest] @userId =1
 
 -- EXEC [dbo].[PCES_BundlePackages_Get] @bundleId=1 
 -- EXEC [dbo].[PCES_User_Suspend]@userId=6
-SELECT * FROM DataPurchases
+--SELECT * FROM DataPurchases
 -- SELECT * FROM Bundles
-EXEC PCES_ApiCustomers_GetByUsernameAndPassword @username='test', @password='GHANA@50'
-SELECT * FROM ApiCustomers
-SELECT * FROM [User] 
+--EXEC PCES_ApiCustomers_GetByUsernameAndPassword @username='test', @password='GHANA@50'
+--SELECT * FROM ApiCustomers
+--SELECT * FROM [User] 
 --  EXEC PCES_User_AddNewUser @telegramUserId='3333333', @phoneNumber='23345467965', @pin='1800'
 -- EXEC [dbo].[PCES_DataPurchases_Ins] 
 --     @userId =1,
