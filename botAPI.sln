@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "botAPI", "botAPI\botAPI.csproj", "{A406FBC1-202A-42D8-8A53-CC14E9903D38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A406FBC1-202A-42D8-8A53-CC14E9903D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A406FBC1-202A-42D8-8A53-CC14E9903D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A406FBC1-202A-42D8-8A53-CC14E9903D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A406FBC1-202A-42D8-8A53-CC14E9903D38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94D87C14-6619-42A5-8A80-AD958DFB49D7}
+	EndGlobalSection
+EndGlobal
